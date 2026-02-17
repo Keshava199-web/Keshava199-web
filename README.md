@@ -3,6 +3,7 @@
 
 [Brief Introduction]
 
+### AI-Security Reseacher | Red Teamer | Always Learning -> Always Leading -> Always Securing -> Repeat. 
 I am a Cybersecurity student focused on penetration testing, system security, and real-world problem solving.
 I build hands-on projects, explore offensive and defensive security techniques, and continuously experiment with emerging technologies.
 
@@ -10,6 +11,11 @@ I build hands-on projects, explore offensive and defensive security techniques, 
 [Objective]
 
 My interest in cybersecurity has grown through hands-on learning and exploring real-world security challenges. I aim to start my career as a SOC Tier 1 Analyst, where I can actively monitor threats, analyze security events, and contribute to protecting systems while continuously improving my defensive skills.
+
+## 🏆 Certifications
+
+- 🛡️ Fortinet NSE 1 – Network Security Associate  
+  Focus: Network Security Fundamentals, Threat Landscape, Fortinet Ecosystem
 
 ## Technical Skills & Projects
 [skills and associated project]
