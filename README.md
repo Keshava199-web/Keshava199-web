@@ -26,7 +26,7 @@ My interest in cybersecurity has grown through hands-on learning and exploring r
 | Network Traffic Analysis & Threat Detection | <a href="https://google.com">Detection Lab</a> |
 | Security Automation (Shuffle SOAR) | SOC Automation Lab |
 | Incident Response Planning & Execution | SOC Automation Lab |
-| Case Management & Alert Handling (TheHive) | SOC Automation Lab |
+| AI Literature Tutor | <a href="[https://google.com](https://github.com/Keshava199-web/Ai-Literature-Tutor/tree/main)">AI Literature Tutor</a> |
 | Scripting for Threat Mitigation & Workflow Automation | SOC Automation Lab |
 
 ## Tools / Tech Stack
