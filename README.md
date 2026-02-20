@@ -22,7 +22,7 @@ My interest in cybersecurity has grown through hands-on learning and exploring r
 
 | Skill | Associated Project |
 |-------|-------------------|
-| SIEM Deployment & Log Analysis | <a href="https://google.com">Detection Lab</a> |
+| SIEM Deployment & Log Analysis | <a href="https://github.com/Keshava199-web/Active-Directory-Project">Detection Lab</a> |
 | Network Traffic Analysis & Threat Detection | <a href="https://google.com">Detection Lab</a> |
 | Security Automation (Shuffle SOAR) | SOC Automation Lab |
 | Incident Response Planning & Execution | SOC Automation Lab |
