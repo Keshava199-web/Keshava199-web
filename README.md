@@ -1,5 +1,5 @@
 # Hello, I'm Keshava Reddy👋
-<a href="https://linkedin.com/in/s-keshava-reddy" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://linkedin.com/in/s-keshava-reddy" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/joshmadakor1">Programmer</a>
 
 [Brief Introduction]
 
@@ -8,7 +8,6 @@ I am a Cybersecurity student focused on penetration testing, system security, an
 I build hands-on projects, explore offensive and defensive security techniques, and continuously experiment with emerging technologies.
 
 ## Objective
-[Objective]
 
 My interest in cybersecurity has grown through hands-on learning and exploring real-world security challenges. I aim to start my career as a SOC Tier 1 Analyst, where I can actively monitor threats, analyze security events, and contribute to protecting systems while continuously improving my defensive skills.
 
@@ -18,7 +17,6 @@ My interest in cybersecurity has grown through hands-on learning and exploring r
   Focus: Network Security Fundamentals, Threat Landscape, Fortinet Ecosystem
 
 ## Technical Skills & Projects
-[skills and associated project]
 
 | Skill | Associated Project |
 |-------|-------------------|
