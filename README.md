@@ -1,5 +1,5 @@
 # Hello, I'm Keshava Reddy👋
-<a href="https://linkedin.com/in/s-keshava-reddy" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/joshmadakor1">Programmer</a>
+<a href="https://linkedin.com/in/s-keshava-reddy" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
 
 [Brief Introduction]
 
