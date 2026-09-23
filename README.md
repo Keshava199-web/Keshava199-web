@@ -14,11 +14,11 @@
 
 ## 👨‍💻 About Me
 
-I'm a cybersecurity student passionate about **threat detection, OSINT, and SOC operations**. I build hands-on labs and tools that mirror real-world attack and defense scenarios — from simulating brute-force attacks in Splunk to writing Python tooling for bulk IP reconnaissance.
+I'm a cybersecurity student passionate about **threat detection, OSINT, and SOC operations**. I build hands-on labs and tools that mirror real-world attack and defense scenarios - from simulating brute-force attacks in Splunk to writing Python tooling for bulk IP reconnaissance.
 
-Previously an intern at **GPCSSI 2025 (Gurugram Police Cyber Security Summer Internship)**, where I built a production-grade IP Intelligence Scanner used for OSINT investigations and threat hunting.
+Previously an intern at **GPCSSI 2025 (Gurugram Police Cybersecurity Summer Internship)**, where I built a production-grade IP Intelligence Scanner used for OSINT investigations and threat hunting.
 
-I'm currently **building Sentinel AI** — a full-stack, AI-powered SOC platform designed to reduce false positives, summarise security alerts, and streamline log triage for SOC L1 analysts. It combines a Python + Node.js backend, React frontend, PostgreSQL + Prisma ORM, and LLM-based log ingestion into a secure, production-grade web application.
+I'm currently **building Sentinel-AI** - a security operations backend built around RBAC, incident/evidence/IOC management, and audit logging (Node.js, Express, TypeScript, PostgreSQL, Prisma), with an early-stage dashboard on top. An AI-assisted triage and log-summarization layer is the next major planned milestone, not yet built.
 
 I'm also **seeking a cybersecurity internship** focused on SOC analysis, threat detection, or security engineering. I learn fast, document well, and love turning security theory into working tools.
 
@@ -26,7 +26,7 @@ I'm also **seeking a cybersecurity internship** focused on SOC analysis, threat 
 
 ## 🎯 Objective
 
-To join a security team as a **SOC Analyst Intern** or **Cybersecurity Intern**, where I can contribute to threat monitoring, log analysis, and incident response — while growing my skills alongside experienced professionals.
+To join a security team as a **SOC Analyst Intern** or **Cybersecurity Intern**, where I can contribute to threat monitoring, log analysis, and incident response - while growing my skills alongside experienced professionals.
 
 ---
 
@@ -34,8 +34,21 @@ To join a security team as a **SOC Analyst Intern** or **Cybersecurity Intern**,
 
 | | |
 |---|---|
-| 🏛️ **GPCSSI 2025 Intern** | Gurugram Police Cyber Security Summer Internship — Built an IP Intelligence Scanner for OSINT & threat investigations |
-| 🛡️ **Fortinet NSE 1** | Network Security Associate — Network Security Fundamentals, Threat Landscape, Fortinet Ecosystem |
+| 🏛️ **GPCSSI 2025 Intern** | Gurugram Police Cybersecurity Summer Internship - Built an IP Intelligence Scanner for OSINT & threat investigations |
+| 🛡️ **Fortinet NSE 1** | Network Security Associate - Network Security Fundamentals, Threat Landscape, Fortinet Ecosystem |
+| 🎓 **Microsoft SC-900** | Security, Compliance, and Identity Fundamentals |
+| 🔐 **CNSP** | Certified Network Security Practitioner - The SecOps Group (CREST-accredited) |
+| 📜 **Google Cybersecurity Professional** | Coursera |
+| ☁️ **NPTEL Cloud Computing (Elite)** | IIT Kharagpur |
+| 🎄 **Advent of Cyber 2025** | TryHackMe |
+| 💻 **DSA with C++** | Cipher Schools |
+
+---
+
+## 🚩 CTF & Rankings
+
+- **TryHackMe** - Top 1% global ranking
+- **HackTheBox** - Skilled rank (Level 31), [@Keshava](https://app.hackthebox.com)
 
 ---
 
@@ -56,7 +69,7 @@ A scalable CLI-based OSINT tool built during my GPCSSI internship. Designed for 
 ### 🖥️ [Active Directory & Splunk Log Analysis Lab](https://github.com/Keshava199-web/Active-Directory-with-splunk-log-analysis)
 > Splunk · Active Directory · SSH · SIEM · SPL
 
-A self-built SOC monitoring lab simulating a real enterprise environment — Windows AD, Linux SSH, an attacker machine, and Splunk as the SIEM.
+A self-built SOC monitoring lab simulating a real enterprise environment - Windows Server, Sysmon, Linux SSH, an attacker machine, and Splunk as the SIEM.
 
 - Ingests and analyzes Windows AD and Linux SSH authentication logs
 - Detects **brute-force attacks, reconnaissance, and unauthorized access** using SPL queries
@@ -68,20 +81,27 @@ A self-built SOC monitoring lab simulating a real enterprise environment — Win
 ### 🤖 [AI Literature Tutor](https://github.com/Keshava199-web/Ai-Literature-Tutor/tree/main)
 > HTML · JavaScript · AI Integration
 
-An AI-powered web application that helps users understand and engage with literature — demonstrating applied AI development skills alongside security work.
+An AI-powered web application that helps users understand and engage with literature - demonstrating applied AI development skills alongside security work.
 
 ---
 
-### 🛡️ Sentinel AI *(In Progress)*
-> Python · FastAPI/Flask · Node.js · React · PostgreSQL · Prisma ORM · LLM API · Middleware · Full-Stack
+### 🛡️ Sentinel-AI *(In Progress — ~30-35% complete)*
+> Node.js · Express · TypeScript · PostgreSQL · Prisma ORM · JWT/RBAC · Early-stage React dashboard
 
-A production-grade, fully secure **AI-powered SOC platform** built for SOC L1 analysts — designed to cut through alert noise and surface what actually matters.
+A security operations backend built around a security-first architecture - designed to eventually evolve into an AI-assisted SOC platform.
 
-- **AI Log Ingestion Pipeline** — feeds security logs and alerts into an LLM for contextual analysis and false positive reduction
-- **Intelligent Alert Summarisation** — automatically summarises verbose alerts into actionable, human-readable insights for faster triage
-- **Secure Full-Stack Architecture** — Python + Node.js backend with middleware layers, React frontend, PostgreSQL database managed via Prisma ORM
-- **SOC L1 Focused UX** — purpose-built interface for analysts to review, prioritise, and respond to incidents efficiently
-- Actively in development — backend and frontend in progress, AI log ingestion pipeline underway
+**Built so far:**
+- JWT authentication, RBAC, and audit logging enforced at the API layer
+- Incident management (CRUD, timeline, comments)
+- Evidence handling and IOC (Indicator of Compromise) management
+- Prisma schema modeling incidents, evidence, IOCs, and audit trails
+- Swagger/OpenAPI documentation
+- Early-stage dashboard UI
+
+**In progress / planned:**
+- Alert management module and full Incident↔IOC linking
+- AI-assisted log summarization and incident triage (LLM integration - not yet built)
+- Real-time event processing, Docker deployment, CI/CD
 
 ---
 
@@ -97,12 +117,9 @@ A production-grade, fully secure **AI-powered SOC platform** built for SOC L1 an
 | OSINT & Bulk IP Reconnaissance | [IP Intelligence Scanner](https://github.com/Keshava199-web/GPCSSI_2025) |
 | Python Scripting & API Automation | [IP Intelligence Scanner](https://github.com/Keshava199-web/GPCSSI_2025) |
 | AI Application Development | [AI Literature Tutor](https://github.com/Keshava199-web/Ai-Literature-Tutor/tree/main) |
-| Full-Stack Web Development (React + Node.js + FastAPI) | Sentinel AI *(in progress)* |
-| LLM-Powered Log Ingestion & Alert Summarisation | Sentinel AI *(in progress)* |
-| PostgreSQL Database Design & Prisma ORM | Sentinel AI *(in progress)* |
-| Secure API Middleware Architecture | Sentinel AI *(in progress)* |
-| Security Automation (Shuffle SOAR) | SOC Automation Lab *(in progress)* |
-| Incident Response Planning | SOC Automation Lab *(in progress)* |
+| Backend Security Architecture (RBAC, JWT, Audit Logging) | Sentinel-AI *(in progress)* |
+| PostgreSQL Database Design & Prisma ORM | Sentinel-AI *(in progress)* |
+| Incident/Evidence/IOC Management API Design | Sentinel-AI *(in progress)* |
 
 ---
 
@@ -149,10 +166,10 @@ A production-grade, fully secure **AI-powered SOC platform** built for SOC L1 an
 <div>
   <img src="https://img.shields.io/badge/-React-61DAFB?&style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-Node.js-339933?&style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/-FastAPI-009688?&style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Express-000000?&style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?&style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/-Prisma-2D3748?&style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/-OpenAI%20%2F%20Claude%20API-412991?&style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Claude%20API-412991?&style=for-the-badge&logo=openai&logoColor=white" />
 </div>
 
 ---
